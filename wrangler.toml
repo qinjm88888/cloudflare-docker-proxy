@@ -39,5 +39,4 @@ name = "cloudflare-docker-proxy-staging"
 MODE = "staging"
 TARGET_UPSTREAM = ""
 
-[assets]
-directory = "./dist"
+
