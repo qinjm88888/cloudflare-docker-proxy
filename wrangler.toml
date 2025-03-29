@@ -17,6 +17,7 @@ CUSTOM_DOMAIN = "exmaple.com"
 
 [env.production]
 name = "cloudflare-docker-proxy"
+CUSTOM_DOMAIN = "bonrui.top"
 # routes = [
 #   { pattern = "docker.libcuda.so", custom_domain = true },
 #   { pattern = "quay.libcuda.so", custom_domain = true },
@@ -30,7 +31,6 @@ name = "cloudflare-docker-proxy"
 [env.production.vars]
 MODE = "production"
 TARGET_UPSTREAM = ""
-CUSTOM_DOMAIN = "bonrui.top"
 
 [env.staging]
 name = "cloudflare-docker-proxy-staging"
