@@ -4,7 +4,7 @@ addEventListener("fetch", (event) => {
 });
 
 const dockerHub = "https://registry-1.docker.io";
-const CUSTOM_DOMAIN = "bonrui.top";
+const CUSTOM_DOMAIN = "bonrui.ccwu.cc";
 const MODE = "production";
 const TARGET_UPSTREAM = "";
 const routes = {
